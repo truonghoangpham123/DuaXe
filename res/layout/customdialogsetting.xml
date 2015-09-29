@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nen_setting"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/ok_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="336dp"
+        android:background="@drawable/bg_null"
+        android:src="@drawable/ok" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="100dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="VOLUME: "
+        android:textColor="#C0C0C0"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <ToggleButton
+        android:id="@+id/bt_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_x="22dp"
+        android:layout_y="162dp"
+        android:background="@drawable/check"
+        android:text=""
+        android:textOff=""
+        android:textOn="" />
+
+    <ImageButton
+        android:id="@+id/v_giam"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_x="146dp"
+        android:layout_y="174dp"
+        android:background="@drawable/bg_null"
+        android:src="@drawable/v_giam" />
+
+    <TextView
+        android:id="@+id/text_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="203dp"
+        android:layout_y="200dp"
+        android:text="10"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <ImageButton
+        android:id="@+id/v_tang"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_x="230dp"
+        android:layout_y="180dp"
+        android:background="@drawable/bg_null"
+        android:src="@drawable/v_tang" />
+
+</AbsoluteLayout>

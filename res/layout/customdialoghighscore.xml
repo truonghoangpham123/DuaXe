@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen_highscore"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:layout_y="127dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_diem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="188dp"
+        android:text="TextView"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="69dp"
+        android:layout_y="377dp"
+        android:background="@drawable/bg_null"
+        android:src="@drawable/cancel" />
+
+    <ImageButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="321dp"
+        android:background="@drawable/bg_null"
+        android:src="@drawable/save" />
+
+</AbsoluteLayout>
